@@ -11,8 +11,8 @@
   4. install phpmyadmin :`sudo apt-get install phpmyadmin`
     - add phpmyadmin in apache :
       `sudo nano /etc/apache2/apache2.conf` then Add at the bottom >> `Include /etc/phpmyadmin/apache.conf` then `sudo apachectl restart`
-##### virtual host:
-    1. change path the website
+###### virtual host :
+  1. change path the website
       - create virtual sites :`sudo cp '/etc/apache2/sites-available/000-default.conf' /etc/apache2/sites-available/file.conf`
       - write in file.conf :`ServerAdmin info@winners.com`&&`ServerName winners.com`&&`ServerAlias www.winners.com`
       - in the same path for winners.com.conf
