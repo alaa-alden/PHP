@@ -19,7 +19,7 @@
         - enable the file configure `sudo a2ensite new file.conf`
         - disable the file configure `sudo a2dissite old file.conf`
       - restart apache :    `sudo service apache2 restart`
-    2. change name in url :
+  2. change name in url :
       - give any ip address that connection with the PC to  the virtual host by : for know what ip address maybe gave `ifconfig`  then `sudo nano /etc/hosts` then add `ip name `
 
   **so maybe create many website on the PC**
